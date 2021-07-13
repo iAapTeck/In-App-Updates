@@ -1,5 +1,6 @@
-# Android-InApp-Update
-InApp update library for Android, In-app update is a library a new request flow to prompt active users to update your app.
+# Android-InApp-Updates
+InApp updates library for Android, In-app updates is a library a new request flow to prompt active users to update your app.
+In-App updates library for Android is a simple implementation of the Android In-App Update API.
 
 In-app updates works only with devices running Android 5.0 (API level 21) or higher, and requires you to use Play Core library 1.5.0 or higher. Additionally, in-app updates support apps running on only Android mobile devices and tablets, and Chrome OS devices.
   
@@ -18,8 +19,8 @@ And then in the other gradle file(may be your app gradle or your own module libr
 ```java
 dependencies {
     ...
-    implementation 'com.github.myinnos:Android-InApp-Update:BETA-0.2'	  
-    implementation 'com.google.android.play:core:1.7.2' //to initiate AppUpdateManager
+    implementation 'com.github.iAapTeck:In-App-Updates:v1.0.1'	  
+    implementation 'com.google.android.play:core:1.10.0' //to initiate AppUpdateManager
 }
 ```          
 How to use
@@ -77,22 +78,22 @@ A full screen user experience that requires the user to update and restart the a
 A user experience that provides background download and installation with graceful state monitoring. This UX is appropriate when it’s acceptable for the user to use the app while downloading the update. For example, you want to urge users to try a new feature that’s not critical to the core functionality of your app.
 
 ![Android-InApp-Update Flexible - Example](https://developer.android.com/images/app-bundle/flexible_flow.png)
-##### Any Queries? or Feedback, please let me know by opening a [new issue](https://github.com/myinnos/Android-InApp-Update/issues/new)!
+##### Any Queries? or Feedback, please let me know by opening a [new issue](https://github.com/iAapTeck/In-App-Updates/issues/new)!
 
 ## Contact
-#### Prabhakar Thota
-* :globe_with_meridians: Website: [myinnos.in](http://www.myinnos.in "Prabhakar Thota")
-* :email: e-mail: contact@myinnos.in
-* :mag_right: LinkedIn: [PrabhakarThota](https://www.linkedin.com/in/prabhakarthota "Prabhakar Thota on LinkedIn")
-* :thumbsup: Twitter: [@myinnos](https://twitter.com/myinnos "Prabhakar Thota on twitter")    
-* :camera: Instagram: [@prabhakar_t_](https://www.instagram.com/prabhakar_t_/ "Prabhakar Thota on Instagram")   
+#### Sanjay Chintamani Patel at iAapTeck Software Labs
+* :globe_with_meridians: Website: [iaapteck.com](http://www.iaapteck.com "iAapTeck Software Labs")
+* :email: e-mail: contact@iaapteck.com
+* :mag_right: LinkedIn: [iAapTeck](https://www.linkedin.com/company/iaapteck "iAapTeck Software Labs on LinkedIn")
+* :thumbsup: Twitter: [@iaapteck](https://twitter.com/iaapteck "iAapTeck Software Labs on twitter")    
+* :camera: Instagram: [@iaapteck](https://www.instagram.com/iaapteck/ "iAapTeck Software Labs on Instagram")   
 
-> If you appreciate my work, consider buying me a cup of :coffee: to keep me recharged :metal: by [PayPal](https://www.paypal.me/fansfolio)
+> If you appreciate my work, consider buying me a cup of :coffee: to keep me recharged :metal: by [PayPal](https://www.paypal.me/iaapteck)
 
 License
 -------
 
-    Copyright 2020 MyInnos
+    Copyright 2021 iAapTeck Software Labs
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
