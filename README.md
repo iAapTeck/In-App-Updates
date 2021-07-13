@@ -2,7 +2,7 @@
 InApp updates library for Android, In-app updates is a library a new request flow to prompt active users to update your app.
 In-App updates library for Android is a simple implementation of the Android In-App Update API.
 
-[![](https://jitpack.io/v/iAapTeck/In-App-Updates.svg)](https://jitpack.io/#iAapTeck/In-App-Updates) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/iAapTeck/In-App-Updates/blob/master/LICENSE)
+[![](https://jitpack.io/v/iAapTeck/In-App-Updates.svg)](https://jitpack.io/#iAapTeck/In-App-Updates) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/iAapTeck/In-App-Updates/blob/master/LICENSE)
 
 
 In-app updates works only with devices running Android 5.0 (API level 21) or higher, and requires you to use Play Core library 1.5.0 or higher. Additionally, in-app updates support apps running on only Android mobile devices and tablets, and Chrome OS devices.
